@@ -4,22 +4,19 @@ import './App.css'
 import Home from './Home.jsx';
 import Projects from './Projects.jsx';
 import Header from'./Header.jsx'
+import Sobre from'./Sobre.jsx'
 
 function App() {
 
   return (
 
-   <Router>
-
-    <Header/>
-    <Routes>
-    <Route path='/' element={<Home />} />
-    <Route path='Projects' element={<Projects />} />
-    </Routes>
-    
-    <div className="app"></div>
-
-   </Router>
+  
+    <div className="app">
+      <Header/>
+      <Home/>
+      <Sobre/>
+    </div>
+   
 
   )
 }

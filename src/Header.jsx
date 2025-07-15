@@ -10,7 +10,7 @@ function Header(){
         <ul className="HeaderContent">
           <h5>Apresentacao</h5>
           <h5>Sobre</h5>
-          <h5>Projects</h5>
+          <h5>Projetos</h5>
         </ul>
 
         

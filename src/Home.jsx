@@ -23,6 +23,14 @@ function Home(){
 
         <p>Desenvolvedor Front-end</p>
 
+        <div className="Content-logos" >
+          <img src="/React.png" alt="React_image" />
+          <img src="/Js.png" alt="Js_image" />
+          <img src="/Css3.png" alt="Css_image" />
+          <img src="/Git.png" alt="git_image" />
+          
+        </div>
+
         </div>
 
         

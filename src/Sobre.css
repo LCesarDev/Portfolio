@@ -1,0 +1,33 @@
+.content-sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 20px;
+    padding: 30px;
+}
+
+.content-sobre img{
+    width: 40%;
+    height: auto;
+}
+
+.sobre-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.sobre-title p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sobre-title button{
+    width: 30%;
+    font-size: 30%;
+    background-color: aqua;
+}

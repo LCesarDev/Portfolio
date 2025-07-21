@@ -8,7 +8,7 @@ function Sobre(){
 
         <div className="content-sobre">
             <p className="sobre-title">Sobre</p>
-                <div className="title-text">Desenvolvedor front-end com experiência prática em React, consumo de APIs REST, 
+                <div className="sobre-text">Desenvolvedor front-end com experiência prática em React, consumo de APIs REST, 
                 autenticação com Firebase e deploy de aplicações. Atuante em projetos publicados, com 
                 domínio em versionamento (Git) e integração com design responsivo. Forte perfil 
                 autodidata, adaptável e focado em evolução contínua.
@@ -18,6 +18,9 @@ function Sobre(){
                     <span className="tag">React</span>
                     <span className="tag">GitHub</span>
                     <span className="tag">HTML</span>
+                    <a href="/Curriculo-LucasCesar_DevFrontEndJunior.pdf" download>
+                        <button className="button-cv">Baixar CV</button>
+                    </a>
                 </div>
 
                 </div>

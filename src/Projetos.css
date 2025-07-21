@@ -1,0 +1,51 @@
+.content-projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+.projetos-title{
+    width: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-projetos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 0;
+}
+
+.content-cloneflix{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    display: flex;
+}
+
+.content-cloneflix img{
+    width: 50%;
+}
+
+.content-cloneflix p{
+    width: 50%;
+    height: 100px;
+    background-color: antiquewhite;
+    color: black;
+
+}
+
+.content-cesarjogos img{
+    width: 30%;
+}

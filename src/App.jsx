@@ -13,12 +13,23 @@ function App() {
   
     <div className="app">
       <Header/>
-      <Home/>
-      <Sobre/>
-    </div>
-   
 
-  )
+      <section id="home" >
+      <Home/>
+      </section>
+
+
+      <section id="sobre">
+        <Sobre />
+      </section>
+
+      <section id="projects">
+        <Projects />
+      </section>
+
+    </div>
+    
+  );
 }
 
 export default App

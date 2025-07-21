@@ -7,11 +7,11 @@ function Header(){
     return(
 
         
-        <ul className="HeaderContent">
-          <h5>Apresentacao</h5>
-          <h5>Sobre</h5>
-          <h5>Projetos</h5>
-        </ul>
+    <ul className="HeaderContent">
+      <li><a href="#home">Apresentação</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projects">Projetos</a></li>
+    </ul>
 
         
 

@@ -1,5 +1,5 @@
 .HeaderContent{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: row;
@@ -22,13 +22,18 @@
     margin-right: 10%;
 }
 
-.HeaderContent h5{
+.HeaderContent li{
+    list-style: none;
+}
+
+.HeaderContent li a{
     font-size: 15px;
     cursor: pointer;
     color: white;
+    list-style: none;
 }
 
-.HeaderContent h5:hover{
+.HeaderContent li a:hover{
     color: aqua;
     text-decoration: underline;
 }

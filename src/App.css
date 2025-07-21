@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: "PT Serif", serif;
   flex-direction: column;         
@@ -6,4 +10,19 @@ body{
   min-height: 100vh;
   overflow-x: hidden;
   background-color: white;
+}
+
+section{
+  padding: 120px 20px;
+}
+
+#home{
+  padding: 40px 20px;
+}
+
+#sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
 }
